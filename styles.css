@@ -37,7 +37,10 @@ html {
   
   form {
     width: 600px;
-    margin: 0 auto;
+    margin: 36px auto;
+    background-color: #1e002acc;
+    padding: 12px 24px;
+    border-radius: 10px;
   }
   
   label {
