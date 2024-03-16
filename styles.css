@@ -6,10 +6,12 @@ html {
   body {
     margin: 0;
     padding: 0;
-    background-image: url(https://www.fnu.edu/wp-content/uploads/2014/09/Study_in_group_in_the_HHS_library.jpg);
     color: white;
-  
-    font-family: Tahoma;
+    background-image: url(https://www.fnu.edu/wp-content/uploads/2014/09/Study_in_group_in_the_HHS_library.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Inter;
   }
   
   .container {
@@ -28,10 +30,12 @@ html {
     margin: 0;
     margin-bottom: 16px;
     font-size: 36px;
+    font-weight: 500;
   }
   
   p {
     margin: 0;
+    font-weight: 200;
   }
   
   form {
@@ -54,6 +58,7 @@ html {
   
   input, select, textarea, button {
     width: 100%;
+    max-width: 600px;
     min-height: 32px;
     margin-top: 8px;
     padding: 8px 8px;
@@ -61,6 +66,7 @@ html {
     border: 0;
     font-family: Tahoma;
     font-size: 14px;
+    box-sizing: border-box;
   }
   
   fieldset {
