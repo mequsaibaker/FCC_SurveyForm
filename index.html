@@ -14,13 +14,13 @@
       <p id="description">Thank you for taking the time to help us improve the platform</p>
     </header>
     <main>
-      <form id="survey-form" action="#">
-        <label>Name<input type="text" placeholder="Enter your Name"></label>
-        <label>Email<input type="Email" placeholder="Enter your Email"></label>
-        <label>Age(optional)<input type="number" placeholder="Enter your Age"></label>
-        <label> Which option best describes your current role?
-        <select name="role">
-          <option value="0">Select current role</option>
+      <form id="survey-form" action="#" method="post">
+        <label id="name-label" for="name">Name<input id="name" type="text" placeholder="Enter your Name" required></label>
+        <label id="email-label" for="email">Email<input id="email" type="Email" placeholder="Enter your Email" required></label>
+        <label id="number-label" for="number">Age (optional)<input id="number" type="number" placeholder="Enter your Age" min="13" max="120"></label>
+        <label for="dropdown"> Which option best describes your current role?
+        <select id="dropdown" name="role" required>
+          <option value="" disabled selected>Select current role</option>
           <option value="1">Student</option>
           <option value="2">Full Time Job</option>
           <option value="3">Full Time Learner</option>
@@ -36,7 +36,7 @@
         </fieldset>
         <label> What service have you done with us before?
         <select name="service">
-          <option value="0">Select an option</option>
+          <option value="" disabled selected>Select an option</option>
           <option value="1">UI/UX Design</option>
           <option value="2">Frontend Dev</option>
           <option value="3">Backend Dev</option>
@@ -57,7 +57,7 @@
         <label> Any comments or suggestions?
               <textarea placeholder="Enter yor comment here..." rows="7"></textarea>
             </label>
-        <button>Submit</button>
+        <button id="submit">Submit</button>
       </form>
     </main>
   </div>
