@@ -9,17 +9,17 @@
 
 <body>
   <div class="container">
-  <header>
-    <h1 id="title">Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
-  </header>
-  <main>
-    <form id="survey-form" action="#">
-      <label>Name<input type="text"></label>
-      <label>Email<input type="text"></label>
-      <label>Age(optional)<input type="number"></label>
-      <label>
-        <select>
+    <header>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <main>
+      <form id="survey-form" action="#">
+        <label>Name<input type="text"></label>
+        <label>Email<input type="text"></label>
+        <label>Age(optional)<input type="number"></label>
+        <label> Which option best describes your current role?
+        <select name="role">
           <option value="0">Select current role</option>
           <option value="1">Student</option>
           <option value="2">Full Time Job</option>
@@ -27,9 +27,24 @@
           <option value="4">Prefer not to say</option>
           <option value="5">Other</option>
         </select>
-      </label>
-    </form>
-  </main>
+        </label>
+        <fieldset>
+          <legend>Would you recommend us to a friend?</legend>
+          <label><input type="radio" name="recomend" value="yes">Definitly</label>
+          <label><input type="radio" name="recomend" value="maybe">Maybe</label>
+          <label><input type="radio" name="recomend" value="no">Not Sure</label>
+        </fieldset>
+        <label> What service have you done with us before?
+        <select name="service">
+          <option value="0">Select an option</option>
+          <option value="1">UI/UX Design</option>
+          <option value="2">Frontend Dev</option>
+          <option value="3">Backend Dev</option>
+          <option value="4">Mobile Dev</option>
+        </select>
+        </label>
+      </form>
+    </main>
   </div>
 </body>
 

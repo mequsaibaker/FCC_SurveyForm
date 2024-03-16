@@ -24,6 +24,10 @@ body {
     display: block;
   }
   
-  input {
+  input, select {
     width: 100%
+  }
+  
+  input[type="radio"] {
+    width: unset;
   }
