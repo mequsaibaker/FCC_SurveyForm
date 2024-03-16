@@ -14,7 +14,7 @@ html {
   
   .container {
     margin: 0;
-    padding: 0;
+    padding: 32px 0;
     width: 100%;
     height: inherit;
     background-color: #2c003fdd;
@@ -26,37 +26,41 @@ html {
   
   h1 {
     margin: 0;
-    padding: 32px 0;
+    margin-bottom: 16px;
     font-size: 36px;
   }
   
   p {
     margin: 0;
-    margin-top: -16;
   }
   
   form {
     width: 600px;
-    margin: 36px auto;
+    margin: 36px auto 0 auto;
     background-color: #1e002acc;
-    padding: 12px 24px;
+    padding: 36px 24px;
     border-radius: 10px;
+  }
+  
+  form label:first-of-type {
+    margin-top: 0;
   }
   
   label {
     display: block;
     margin: 24px 0;
+    font-size: 18px;
   }
   
   input, select, textarea, button {
     width: 100%;
     min-height: 32px;
     margin-top: 8px;
-  }
-  
-  input, select, textarea {
+    padding: 8px 8px;
+    border-radius: 4px;
+    border: 0;
     font-family: Tahoma;
-  
+    font-size: 14px;
   }
   
   fieldset {
@@ -73,5 +77,15 @@ html {
     margin: 4px 0;
   }
   
+  legend {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: rgb(0,170, 0);
+    color: white; 
+  }
   
   
