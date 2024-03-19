@@ -1,3 +1,6 @@
+<head>
+  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</head>
 <h1>Project Title: Survey Form</h1>
 <small>Build a Survey Form</small>
 
@@ -11,7 +14,7 @@ For this project, I crafted a Survey Form application, a functional counterpart 
   Survey Form</a> by Qusai Baker (<a href="https://codepen.io/mequsaibaker">@mequsaibaker</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 
 <h2>General Features:</h2>
 <p>
