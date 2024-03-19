@@ -6,6 +6,13 @@
 For this project, I crafted a Survey Form application, a functional counterpart to the example provided by FreeCodeCamp. My task was to create a user-friendly interface where individuals could contribute their feedback to enhance our platform's services. Within this form, users are prompted to provide their name, email, and optionally their age. To ensure data integrity, I implemented HTML5 validation, which alerts users if they input invalid email formats or numbers outside the specified age range. Additionally, I designed intuitive label elements for each input field, guiding users through the form seamlessly.
 </p>
 
+<p class="codepen" data-height="549" data-default-tab="result" data-slug-hash="XWQNKaV" data-user="mequsaibaker" style="height: 549px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/mequsaibaker/pen/XWQNKaV">
+  Survey Form</a> by Qusai Baker (<a href="https://codepen.io/mequsaibaker">@mequsaibaker</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 <h2>General Features:</h2>
 <p>
 The Survey Form application provides a straightforward means for users to share their feedback on our services. It features:
